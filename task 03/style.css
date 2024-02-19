@@ -67,3 +67,9 @@ body {
 .right button:hover{
     background-color: #0363d9;
 }
+
+@media screen and (max-width:576px) {
+    .card{
+        flex-direction: column;
+    }
+}
